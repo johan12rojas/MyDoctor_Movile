@@ -137,6 +137,10 @@ flutter run -d chrome
 
 # Windows
 flutter run -d windows
+
+# Ejemplo en dispositivo físico Android (mismo comando pero definiendo la URL de la API):
+flutter run -d <ID_DISPOSITIVO> --dart-define=API_BASE_URL=http://<AQUI_VA_TU_IP>:3000/api
+# Reemplaza <AQUI_VA_TU_IP> por la dirección IPv4 de tu PC (ej. 192.168.0.25)
 ```
 
 ---
